@@ -1,0 +1,114 @@
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background: url('windows\ 8\ backrounds.jpg');
+  background-size: cover;
+  position: absolute;
+  width: 100%;
+}
+
+.headr-container{
+    display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.start{
+    color: white;
+    font-size: 4em;
+    margin-left: 2em;
+}
+
+.name{
+    color: white;
+    font-size: 2em;
+    margin-right: 2em;
+}
+
+.container{
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.flex-item{
+    height: 13em;
+    width: 20em;
+    margin: 0.3em;
+    display: flex;
+    justify-content: left;
+    align-items: flex-end; 
+    padding-bottom: 1em; 
+    padding-left: 1em;
+    color: white;
+    flex-shrink: 0;
+    
+}
+
+.mail, .photos, .travel{
+    background-color: rgb(40, 129, 161);
+}
+
+.calendar, .sports{
+    background-color: rgb(60, 13, 110);
+}
+
+.internet, .weather{
+    background-color: rgb(16, 123, 210);
+}
+
+.store, .finance{
+    background-color: rgb(33, 135, 55);
+}
+
+.people, .musik, .games{
+    background-color: rgb(190, 97, 17);
+}
+
+.maps, .deckstop{
+    background-color: rgb(109, 15, 163);
+}
+
+.onedrive, .bing{
+    background-color: rgb(23, 26, 151);
+}
+
+.news, .video{
+    background-color: rgb(131, 13, 49);
+}
+
+.mail, .people, .deckstop{
+     margin-left: 7em;
+}
+
+.travel, .musik{
+    height: 13em;
+    width: 10em;
+    margin-left: 7em;
+}
+
+.bing{
+    height: 13em;
+    width: 21.6em;
+    margin-left: 7em;
+}
+
+.sports, .video{
+    height: 13em;
+    width: 10em;
+}
+
+.internet, .games{
+    height: 5.8em;
+    width: 20em;
+}
+
+.photos{
+    height: 13em;
+    width: 13em;
+}
+
+.maps{
+    height: 13em;
+    width: 27em;
+}
